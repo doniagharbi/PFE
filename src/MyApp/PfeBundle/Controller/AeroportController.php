@@ -38,7 +38,7 @@ class AeroportController extends Controller
         $aeroport = new Aeroport();
         $form = $this->createForm(AeroportType::class, $aeroport);
         if ($form->handleRequest($request)->isValid()) {
-//    var_dump($aeroport);
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($aeroport);
             $em->flush();
