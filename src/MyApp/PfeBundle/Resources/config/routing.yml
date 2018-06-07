@@ -1,0 +1,21 @@
+my_app_pfe_homepage:
+    path:     /
+    defaults: { _controller: MyAppPfeBundle:Default:index }
+affichage:
+    path:     /page
+    defaults: { _controller: MyAppPfeBundle:Aeroport:affichage }
+
+details:
+    path:     /details
+    defaults: { _controller: MyAppPfeBundle:Aeroport:details }
+Ajout:
+        path:     /ajout
+        defaults: { _controller: MyAppPfeBundle:Aeroport:Ajout }
+
+delete:
+        path:     /supprimer/{code}
+        defaults: { _controller: MyAppPfeBundle:Aeroport:delete }
+
+modif:
+        path:     /update/{code}
+        defaults: { _controller: MyAppPfeBundle:Aeroports:update }
