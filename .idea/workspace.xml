@@ -5,7 +5,9 @@
     <option name="CUSTOM_SCOPE_NAME" value="All Places" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6734d25-4de3-4adc-997a-d2f003dca6d9" name="Default" comment="" />
+    <list default="true" id="e6734d25-4de3-4adc-997a-d2f003dca6d9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/MyApp/PfeBundle/Controller/AeroportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyApp/PfeBundle/Controller/AeroportController.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AeroportController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AeroportController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyApp/PfeBundle/Controller/AeroportController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="192">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#136#193#0#PHP" expanded="true" />
                 <element signature="e#393#429#1#PHP" expanded="true" />
@@ -37,16 +39,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aeroport.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Aeroport.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyApp/PfeBundle/Entity/Aeroport.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="119">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,9 +66,9 @@
         <option value="$PROJECT_DIR$/tests/AppBundle/Entity/Aeroport.php" />
         <option value="$PROJECT_DIR$/tests/AppBundle/Entity/Ville.php" />
         <option value="$PROJECT_DIR$/src/MyApp/MyAppPfeBundle.php" />
-        <option value="$PROJECT_DIR$/src/MyApp/PfeBundle/Controller/AeroportController.php" />
         <option value="$PROJECT_DIR$/src/MyApp/PfeBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/MyApp/PfeBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/MyApp/PfeBundle/Controller/AeroportController.php" />
       </list>
     </option>
   </component>
@@ -112,10 +117,11 @@
       <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -145,6 +151,14 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="MyApp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="PfeBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PrCom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrCom" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MyApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PfeBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="PrCom" type="b2602c69:ProjectViewProjectNode" />
@@ -209,23 +223,24 @@
       <updated>1527685924567</updated>
       <workItem from="1527686212546" duration="479000" />
       <workItem from="1527687226315" duration="1825000" />
-      <workItem from="1527733032170" duration="14206000" />
+      <workItem from="1527733032170" duration="14847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16510000" />
+    <option name="totallyTimeSpent" value="17151000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="683" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.20539731" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956383" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.68815595" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32125986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33601758" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" sideWeight="0.7946027" weight="0.32956383" />
       <window_info anchor="right" id="Database" order="3" />
@@ -331,22 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/PfeBundle/Controller/AeroportController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-          <folding>
-            <element signature="e#136#193#0#PHP" expanded="true" />
-            <element signature="e#393#429#1#PHP" expanded="true" />
-            <element signature="e#665#703#0#PHP" expanded="true" />
-            <element signature="e#1214#1249#0#PHP" expanded="true" />
-            <element signature="e#1425#1450#1#PHP" expanded="true" />
-            <element signature="e#1754#1779#1#PHP" expanded="true" />
-            <element signature="e#2079#2115#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyApp/PfeBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -356,8 +355,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyApp/PfeBundle/Entity/Aeroport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyApp/PfeBundle/Controller/AeroportController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#136#193#0#PHP" expanded="true" />
+            <element signature="e#393#429#1#PHP" expanded="true" />
+            <element signature="e#665#703#0#PHP" expanded="true" />
+            <element signature="e#1214#1249#0#PHP" expanded="true" />
+            <element signature="e#1425#1450#1#PHP" expanded="true" />
+            <element signature="e#1754#1779#1#PHP" expanded="true" />
+            <element signature="e#2079#2115#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
