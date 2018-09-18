@@ -6,13 +6,13 @@
  * Time: 23:17
  */
 
-namespace Tests\AppBundle\Controller;
-
+namespace MyApp\PfeBundle\Controller;
+use Symfony\Component\HttpFoundation\Response;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
-use Tests\AppBundle\Entity\Aeroport;
+
+use MyApp\PfeBundle\Entity;
 
 class AeroportController extends Controller
 {
